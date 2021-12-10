@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "292633209757",
+    "project_id": "usemeapp-001",
+    "storage_bucket": "usemeapp-001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292633209757:android:d1523011569a92b5521d74",
+        "android_client_info": {
+          "package_name": "com.usemeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292633209757-jglf8i9h4aahanhann2tv0u62hq2gip8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbQLBX7tQHqnA6hmCmKCBp1agkgOWXWVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292633209757-jglf8i9h4aahanhann2tv0u62hq2gip8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
