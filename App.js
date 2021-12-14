@@ -1,11 +1,24 @@
 import React from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet, StatusBar} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import 'react-native-gesture-handler';
+
+import AuthProvider from './src/contexts/auth';
+
+import Routes from './src/routes';
 
 export default function App() {
   return (
-    <View style={styles.viewContainer}>
-      <Text style={styles.textTitle}> Seja bem vindo ao meu App (;</Text>
-    </View>
+    <NavigationContainer>
+      <AuthProvider>
+        <StatusBar
+          backgroundColor={'#6959CD'}
+          barStyle="light-content"
+          translucent={false}
+        />
+        <Routes />
+      </AuthProvider>
+    </NavigationContainer>
   );
 }
 
